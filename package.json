@@ -1,23 +1,8 @@
 {
-  "name": "burger",
+  "name": "homework-13",
   "version": "1.0.0",
-  "description": "Restaurant app that lets users input the names of burgers they'd like to eat.  Uses mysql db, node.js, express and express-react-views.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qlhuynh949/burger.git"
-  },
-  "keywords": [],
-  "author": "Julian Van Ost",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qlhuynh949/burger/issues"
-  },
-  "homepage": "https://github.com/qlhuynh949/burger#readme",
+  "description": "![License: None](https://img.shields.io/badge/License-None-brightgreen)",
+  "main": "server.js",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -27,5 +12,19 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianvanost/Homework-13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianvanost/Homework-13/issues"
+  },
+  "homepage": "https://github.com/julianvanost/Homework-13#readme"
 }

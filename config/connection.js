@@ -7,11 +7,11 @@ if (process.env.JAWSDB_URL) {
 }
 else {
   connection = createConnection({
-    host: 'localhost',
+    host: 'bbj31ma8tye2kagi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
     port: 3306,
-    user: 'root',
-    password: 'rootroot',
-    database: 'burger_db'
+    user: 'leabyuv2i3214252',
+    password: 'mw2zq69e1xo3rhyt',
+    database: 'fs80d8hiz016rguz'
   })
 }
 module.exports = connection

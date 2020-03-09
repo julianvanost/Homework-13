@@ -37,9 +37,7 @@ const renderBurgerList = list => {
       d-flex justify-content-between align-items-center`
 
       if (devoured === 0) {
-        burgerElem.innerHTML = `${burger_name} <span data-id=${id} data-devoured=${devoured} class="devoure badge badge-danger badge-pill">Devoure</span>`
-
-
+        burgerElem.innerHTML = `${burger_name} <span data-id=${id} data-devoured=${devoured} class="Devour badge badge-danger badge-pill">Devour</span>`
         document.getElementById('displayHamburgerList').append(burgerElem)
       }
       else {
@@ -63,11 +61,8 @@ const devoureBurger = ({ dataset: { id, devoured } }) => {
 
 renderBurger();
 
-document.addEventListener('click', event => event.target.classList.contains('devoure') ? devoureBurger(event.target) : null)
-
-
+document.addEventListener('click', event => event.target.classList.contains('Devour') ? devoureBurger(event.target) : null)
 document.getElementById('submitHamburger').addEventListener('click',
   event => {
-
     createHamburger();
   })

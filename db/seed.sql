@@ -1,5 +1,6 @@
-insert into burger(burger_name, devoured)
+insert into
+  burger(burger_name, devoured)
 values
-  ('Cheese burger', false),
-  ('Angus burger', false),
-  ('Chicken Charboiled', false)
+  ('Royale with Cheese', false),
+  ('Meatwitch burger', false),
+  ('Chicken Ranch Sammitch', false)

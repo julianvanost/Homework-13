@@ -7,12 +7,11 @@ const DevouredHamburgerList = require('./components/devouredHamburgerList.jsx')
 const Home = props => {
   return (
     <Html>
-      <div class="card addishClass" >
-        <img class="card-img-top" src="./images/burger.png" height='250px' width='200px' alt="Eat A Hamburger" />
-        <div class="card-body">
-          <h5 class="card-title">Eat a Hamburger</h5>
-          <p class="card-text">Type in a hamburger and
-            click submit</p>
+      <div className="card addishClass" >
+        <img className="card-img-top burgerFix" src="./images/burger.png" alt="Eat A Hamburger" />
+        <div className="card-body">
+          <h5 className="card-title ">Welcome to Eat-a-Burger</h5>
+          <p className="card-text">Type in your order to add to menu, then click next to your order to devour!</p>
           <div className='container'>
             <div className='row'>
               <div className='col-md-6'>
